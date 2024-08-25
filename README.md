@@ -1,2 +1,2 @@
 # radiant-wiki
- https://wiki.twstgaming.xyz/
+ 暉長 Radiant 伺服器 Wiki 頁面

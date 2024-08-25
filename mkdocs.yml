@@ -1,0 +1,145 @@
+site_name: 暉長 | Radiant
+site_author: tcib_cat
+site_description: '暉長伺服器 Wiki 頁面'
+site_url: https://wiki.twstgaming.xyz/
+
+edit_uri: https://github.com/thecatisbest/radiant-wiki/edit/main/docs
+
+copyright: Copyright © 2021 - 2024 twstgaming.xyz - All Rights Reserved
+
+theme:
+  name: material
+  language: zh-Hant
+  palette:
+    # Palette toggle for light mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: 切換至暗色模式
+
+    # Palette toggle for dark mode
+    - scheme: default
+      toggle:
+        icon: material/weather-sunny
+        name: 切換至亮色模式
+  favicon: assets/images/favicon.svg      
+  logo: 'assets/images/logo.png'
+  icon:
+    repo: 'simple/github'
+  features:
+    - navigation.instant # 现在页面不会跳转,而是类似单页应用,搜索和各种跳转都是在当前页面完成,对美观有很大帮助
+    - navigation.instant.progress
+    - navigation.tabs # 页面上方的标签页
+    - navigation.tracking # 页面滚动时，导航栏高亮当前页面
+    - navigation.sections # 使导航栏分块
+    - navigation.expand # 默认展开导航
+    # - navigation.prune # 只渲染当前页面的导航
+    - toc.follow # 滚动的时候侧边栏自动跟随
+    - navigation.top # 返回顶部按钮
+    - header.autohide
+    - search.suggest # 补全建议
+    - search.highlight # 搜索结果高亮
+    - search.share # 搜索结果分享
+    - navigation.footer # 页脚提示下一章
+    - navigation.indexes
+    - content.action.edit
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy # 代码段上的赋值按钮
+
+extra:
+  generator: false
+  social:
+    - link: 'https://discord.twstgaming.xyz'
+      icon: 'simple/discord'  
+    - link: 'https://github.com/TWST-Studio'
+      icon: 'simple/github'
+
+extra_css:
+  - assets/stylesheets/styling.css
+
+nav:
+  - 主頁: index.md
+  - 新手教學:
+      - 新手教學/server-connect.md
+      - 新手教學/first-join.md
+      - 新手教學/discord-connect.md
+      - 新手教學/cmd.md
+  - 功能清單: 
+      - 功能清單/ah.md
+      - 功能清單/land.md
+
+plugins:
+   - offline
+   - search
+   - tags
+   - glightbox:
+       touchNavigation: true
+       loop: false
+       effect: zoom
+       slide_effect: slide
+       width: 100%
+       height: auto
+       zoomable: true
+       draggable: true
+       skip_classes:
+         - custom-skip-class-name
+       auto_caption: false
+       caption_position: bottom
+       background: white
+       shadow: true
+       manual: false
+
+markdown_extensions:
+    - admonition # 警告语法
+    - def_list
+    - footnotes
+    - abbr
+    - pymdownx.caret
+    - pymdownx.mark
+    - pymdownx.tilde
+    - md_in_html
+    - pymdownx.arithmatex: # latex支持
+          generic: true
+    - toc:
+          permalink: true # 固定标题位置为当前位置
+          toc_depth: 3 # 目录深度
+    - pymdownx.highlight: # 代码块高亮
+          anchor_linenums: true
+          linenums: true # 显示行号
+          use_pygments: true # 代码高亮
+          pygments_lang_class: true
+          auto_title: true # 显示编程语言名称
+          linenums_style: pymdownx-inline # 行号样式,防止复制的时候复制行号
+    - pymdownx.betterem # 强调美化,比如**text**会被美化
+    - pymdownx.caret # 上标和下标
+    - pymdownx.mark # 上标和下标
+    - pymdownx.tilde # 上标和下标
+    - pymdownx.keys # 显示按键组合
+    - pymdownx.critic
+    - pymdownx.details # 可以折叠的代码块 ??? note 可以让警告变成折叠的
+    - pymdownx.inlinehilite
+    - pymdownx.snippets
+    - pymdownx.superfences
+    - pymdownx.magiclink # 自动识别链接
+    - pymdownx.smartsymbols # 智能符号
+    - pymdownx.snippets # 代码段
+    - pymdownx.tasklist:
+          custom_checkbox: true # 自定义复选框
+    - attr_list
+    - pymdownx.emoji:
+          emoji_index: !!python/name:material.extensions.emoji.twemoji
+          emoji_generator: !!python/name:material.extensions.emoji.to_svg
+    - pymdownx.superfences: # 代码块中支持Mermaid
+          custom_fences: # 支持 Mermaid
+              - name: mermaid
+                class: mermaid
+                format: !!python/name:pymdownx.superfences.fence_code_format
+    - pymdownx.tabbed:
+          alternate_style: true
+          combine_header_slug: true
+    - pymdownx.tasklist:
+          custom_checkbox: true
+          clickable_checkbox: true
+    - meta # 支持Markdown文件上方自定义标题标签等
+    - tables
