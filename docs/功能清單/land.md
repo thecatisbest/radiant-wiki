@@ -49,6 +49,15 @@
 1. 進入領地範圍内，輸入指令 `/res tpset`
 ![圖片](assets/land/tpset.png)
 
+## 領地擴增 & 縮減
+### 領地擴增
+1. 進入領地範圍内，在你所站的方向，輸入指令 `/res expand <領地名稱> <擴增大小>`
+![圖片](assets/land/expaned.png)
+
+### 領地縮減
+1. 進入領地範圍内，在你所站的方向，輸入指令 `/res contract <領地名稱> <縮減大小>`
+![圖片](assets/land/contracted.png)
+
 ## 刪除領地
 1. 進入領地範圍内，輸入指令 `/res remove`
 ![圖片](assets/land/remove.png)

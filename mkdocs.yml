@@ -68,6 +68,8 @@ nav:
   - 功能清單: 
       - 功能清單/ah.md
       - 功能清單/land.md
+      - 功能清單/trap.md
+      - 功能清單/recycling_bin.md
 
 plugins:
    - offline
