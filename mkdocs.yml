@@ -12,12 +12,14 @@ theme:
   language: zh-Hant
   palette:
     # Palette toggle for light mode
+    - primary: pink
     - scheme: slate
       toggle:
         icon: material/weather-night
         name: 切換至暗色模式
 
     # Palette toggle for dark mode
+    - primary: pink
     - scheme: default
       toggle:
         icon: material/weather-sunny
