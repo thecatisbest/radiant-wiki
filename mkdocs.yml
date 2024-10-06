@@ -13,14 +13,14 @@ theme:
   palette:
     # Palette toggle for light mode
     - scheme: slate
-      primary: pink
+      primary: blue grey
       toggle:
         icon: material/weather-night
         name: 切換至暗色模式
 
     # Palette toggle for dark mode
     - scheme: default
-      primary: pink
+      primary: blue grey
       toggle:
         icon: material/weather-sunny
         name: 切換至亮色模式
