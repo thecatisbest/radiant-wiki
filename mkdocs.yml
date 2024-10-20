@@ -71,6 +71,7 @@ nav:
       - 功能清單/land.md
       - 功能清單/trap.md
       - 功能清單/recycling_bin.md
+      - 功能清單/bank.md
 
 plugins:
    - offline
