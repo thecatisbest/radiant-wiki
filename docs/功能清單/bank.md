@@ -5,7 +5,7 @@
     
 ## 銀行介面
 從主選單->玩家資料->銀行或使用 `/bank` 進入銀行介面
-![圖片](assets/bank_view.png)
+![圖片](assets/bank_menu.png)
 
 ### 提款
 在銀行介面可進行提款的動作
