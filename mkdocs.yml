@@ -52,7 +52,7 @@ extra:
   social:
     - link: 'https://discord.twstgaming.xyz'
       icon: 'simple/discord'  
-    - link: 'https://github.com/TWST-Studio'
+    - link: 'https://github.com/thecatisbest/radiant-wiki'
       icon: 'simple/github'
 
 extra_css:
