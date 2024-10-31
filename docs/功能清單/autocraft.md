@@ -12,11 +12,11 @@
 ## 創建/添加
 !!! info "注意"
     默認情況下，玩家最多可以創建3個自動合成。後續可以在 **暉幣商城** 購買更多
-1. 手持 **告示牌**，輸入指令 `/autocraft add <群組>` 即可
+1. 手持 **告示牌**，輸入指令 `/autocraft add <群組>`
 ![圖片](assets/autocraft/autocraft_1.png)
 
 ## 取消連結
 1. 拆掉 **告示牌** 即可
 
 ## 刪除
-1. 輸入指令 `/autocraft remove <群組>` 即可
+1. 輸入指令 `/autocraft remove <群組>`
