@@ -2,15 +2,15 @@
 
 ## 職業介面
 主選單 -> 玩家資料 -> 做工的人，即可開啟職業介面，可查看所有職業
-![圖片](assets/jobs_menu.png)
+![圖片](assets/jobs/jobs_menu.png)
 
 ## 入職與離職
 在職業介面可進行入職與離職的操作，離職後，該職業級別經驗值**不會重置！**
 
 ## 職業級別
 透過進行該職業的動作來增加級別經驗值，級別越高，賺到的錢越多
-![圖片](assets/jobs_menu_xp.png)
+![圖片](assets/jobs/jobs_menu_xp.png)
 
 ## 疲累值
 每個工作會增加不同的疲累值，疲累值的最大上限為500，可以透過領取每日獎勵重置
-![圖片](assets/scoreboard.png)
+![圖片](assets/jobs/scoreboard.png)
