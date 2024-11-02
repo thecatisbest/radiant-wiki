@@ -76,6 +76,7 @@ nav:
       - 功能清單/chestlink.md
       - 功能清單/autocraft.md
       - 功能清單/filter.md
+      - 功能清單/invframe.md
 
 plugins:
    - offline
